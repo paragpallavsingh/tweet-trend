@@ -11,7 +11,9 @@ pipeline{
     stages {
         stage ('Build') {
             steps {
+                echo "___build started____"
                 sh 'mvn clean deploy'
+                echo "___build completed____"
             }
         }
 
