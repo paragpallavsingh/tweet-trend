@@ -12,7 +12,8 @@ pipeline{
         stage ('Build') {
             steps {
                 echo "___build started____"
-                sh 'mvn clean deploy -Dmaven.test.skip=true' #in the build stage dont execute the unit test
+                sh 'mvn clean deploy -Dmaven.test.skip=true' 
+                #in the build stage dont execute the unit test
                 echo "___build completed____"
             }
         }
