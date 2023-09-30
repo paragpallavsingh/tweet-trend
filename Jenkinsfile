@@ -1,4 +1,6 @@
 def registry = 'https://paragcloud.jfrog.io'
+def imageName = 'paragcloud.jfrog.io/tt-repo-docker-local/ttrend'
+def version   = '2.1.2'
 
 pipeline{
     agent {
@@ -11,6 +13,7 @@ pipeline{
         PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
     }
     stages {
+        
         stage ('Build') {
             steps {
                 echo "___build started____"
@@ -19,6 +22,7 @@ pipeline{
                 echo "___build completed____"
             }
         }
+        
         stage('test'){
             steps{
                 echo "___unit test started____"
@@ -37,6 +41,7 @@ pipeline{
                 }
             }
         }
+        
         stage('Quality Gate'){
             steps{
                 script{
@@ -49,6 +54,7 @@ pipeline{
                 }
             }
         }
+        
         stage("Jar Publish") {
             steps {
                 script {
@@ -72,6 +78,28 @@ pipeline{
                      echo '<-------------- Jar Publish Ended --------------->'  
                 }
             }   
+        }
+
+        stage(" Docker Build ") {
+            steps {
+                script {
+                   echo '<--------------- Docker Build Started --------------->'
+                   app = docker.build(imageName+":"+version)
+                   echo '<--------------- Docker Build Ends --------------->'
+                }
+            }
+        }
+
+        stage (" Docker Publish "){
+            steps {
+                script {
+                    echo '<--------------- Docker Publish Started --------------->'  
+                    docker.withRegistry(registry, 'jfrog-token'){
+                        app.push()
+                    }    
+                    echo '<--------------- Docker Publish Ended --------------->'  
+                }
+            }
         }
     }
 }
