@@ -1,19 +1,18 @@
 # Ttrend application
 
-This is a small application which contains main and test folders.  
+This is a small application that contains main and test folders.  
 The Main contains the application code.  
 The test contains test cases.  
 It also contains pom.xml which has all dependencies and artifact name and version
 
-This project have been a great fun
+This project has been a great fun
 
 
-
-* Using Terraform to quickly build infrastructre for ansible, jenkins master and implement changes in infrastructure like security group, vpc, permission etc.
+* Using Terraform to build infrastructure for Ansible quickly, Jenkins master and implement changes in infrastructure like security group, vpc, permission etc.
 
 <kbd><img width="809" alt="image" src="https://github.com/paragpallavsingh/tweet-trend/assets/40052830/73973823-2d73-44ba-a2f6-6797ed04f391"></kbd>
 
-* Using Ansible plyabooks to configure as well as update the jenkins master and slaves
+* Using Ansible playbooks to configure as well as update the Jenkins master and slaves
 
 <kbd><img width="960" alt="image" src="https://github.com/paragpallavsingh/tweet-trend/assets/40052830/d491e8cc-6a56-466c-8c70-d1fd0ee9da1e"></kbd>
 
@@ -26,6 +25,12 @@ This project have been a great fun
 * Regular SonarQube Analysis Going on in every project build
 
 <kbd><img width="959" alt="image" src="https://github.com/paragpallavsingh/tweet-trend/assets/40052830/a9b97fcc-8ba5-4623-8953-f977398f2639"></kbd>
+
+* After configuring Kubernetes manifest files using jfrog artifactory image, and configuring it to GitHub, we have finally deployed on the 30082 port
+
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/41fe64b7-ec8c-4dbb-aac0-3ae312b80e64)</kbd>
+
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/1bcddb02-b9d0-41e2-ba92-0a6b35913e60)</kbd>
 
 
 * Publishing Jar Artifact
