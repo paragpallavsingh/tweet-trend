@@ -101,5 +101,13 @@ pipeline{
                 }
             }
         }
+
+        stage ("Deploy Application"){
+            steps{
+                script{
+                    sh './deploy.sh'
+                }
+            }
+        }
     }
 }
