@@ -52,4 +52,7 @@ This project has been a great fun
 
 <kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/8c24e280-eac6-47c5-9fe6-23624c21ad08)</kbd>
 
+* Installing grafana and prometheus using helm charts
+
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/56792f0d-1633-4d45-838f-c3780d642857)</kbd>
 
