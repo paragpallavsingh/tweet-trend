@@ -56,3 +56,15 @@ This project has been a great fun
 
 <kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/56792f0d-1633-4d45-838f-c3780d642857)</kbd>
 
+## Grafana Dashboards for Kubernetes Clusters Data
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/90489377-b1b0-4cda-bc0e-270142c0cf54)</kbd>
+
+## Alerts
+![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/497a54fd-d878-48bb-b3ca-ccbe48aeb23f)
+
+## Compute Resources
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/cef163d4-0bfc-4e66-a188-2908e1dbb1a8)</kbd>
+
+
+
+
