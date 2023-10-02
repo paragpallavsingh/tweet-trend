@@ -66,6 +66,10 @@ This project has been a great fun
 <kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/cef163d4-0bfc-4e66-a188-2908e1dbb1a8)</kbd>
 
 
-# And Finally LEAVIN NO TRACE of resources through Terraform
+# And Finally LEAVING NO TRACE of resources through Terraform
 ![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/159545a7-2649-40f2-bf54-0c8a3879af12)
+
+
+# COURSE COMPLETE
+![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/e9b27d82-fa7d-492e-be8e-dc056badceb7)
 
