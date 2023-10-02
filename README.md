@@ -46,3 +46,10 @@ This project has been a great fun
 
 <kbd><img width="326" alt="image" src="https://github.com/paragpallavsingh/tweet-trend/assets/40052830/6bd99201-10e4-4a6a-95e2-28e542ef15d4"></kbd>
 
+* Using Helm charts to run application
+
+<kbd> ![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/7f634bba-e72b-44b8-8932-4c29d76469c6)</kbd>
+
+<kbd>![image](https://github.com/paragpallavsingh/tweet-trend/assets/40052830/8c24e280-eac6-47c5-9fe6-23624c21ad08)</kbd>
+
+
